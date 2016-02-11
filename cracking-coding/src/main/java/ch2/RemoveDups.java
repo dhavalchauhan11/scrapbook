@@ -1,5 +1,6 @@
 package ch2;
 
+import java.util.Hashtable;
 import java.util.List;
 
 /**
@@ -8,16 +9,23 @@ import java.util.List;
  */
 public class RemoveDups {
 
-    public static void deleteDup(Node node){
-
-        while(node.next != null){
-            Node current = node;
-
-        }
+    public static void main(String[] args) {
+        RemoveDups rd = new RemoveDups();
 
     }
 
-
+    public static void deleteDup(Node node){
+        Hashtable table = new Hashtable();
+        Node previous = null;
+        while(node.next != null){
+            if(table.containsKey(node.data)){
+                previous.next = node.next;
+            } else{
+                table.put(node.data,true);
+                previous = node;
+            }
+        }
+    }
 
     class Node{
         int data;
