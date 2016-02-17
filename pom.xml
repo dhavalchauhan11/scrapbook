@@ -11,6 +11,7 @@
     <modules>
         <module>cracking-coding</module>
         <module>hackerrank</module>
+        <module>leetcode</module>
     </modules>
 
 
