@@ -70,7 +70,6 @@ public class LongestPalindrom {
             if(p2.length() > longest.length()){
                 longest = p2;
             }
-
         }
 
         return longest;

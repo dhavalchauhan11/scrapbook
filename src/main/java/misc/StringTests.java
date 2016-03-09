@@ -1,11 +1,9 @@
 package misc;
 
-import junit.framework.TestCase;
-
 /**
  * Created by dhavalchauhan on 10/13/14.
  */
-public class StringTests extends TestCase {
+public class StringTests {
 
     public void testSplit(){
         String proxy = "10.198.151.227:";
