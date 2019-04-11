@@ -21,8 +21,10 @@ public class WordBreak {
     }
 
     public static void main(String[] args) {
-//        String input = "markmonitor";
-        String input = "markmonitorabcpqrgghmark";
+
+        WordBreak wb = new WordBreak();
+        String input = "markmonitorabc";
+//        String input = "markmonitorabcpqrgghmark";
 
 //        String output = segmentWordFizzBuzz(input,dict);
         String output = segmentWordRec(input,dict);

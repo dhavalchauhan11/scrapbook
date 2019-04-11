@@ -12,6 +12,8 @@
         <module>cracking-coding</module>
         <module>hackerrank</module>
         <module>leetcode</module>
+        <module>algo</module>
+        <module>threading</module>
     </modules>
 
 
