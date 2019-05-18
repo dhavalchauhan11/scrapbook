@@ -15,6 +15,7 @@
         <module>algo</module>
         <module>threading</module>
         <module>java8</module>
+        <module>trees</module>
     </modules>
 
 
