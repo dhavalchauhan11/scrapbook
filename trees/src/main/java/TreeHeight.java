@@ -3,6 +3,18 @@ import java.util.Queue;
 
 public class TreeHeight {
     public static void main(String[] args) {
+
+
+/**
+ *             15
+ *         |       |
+ *        10      20
+ *       |  |    |  |
+ *       8  12  16  25
+ *
+ */
+
+
         Node root = null;
         root = new Node(15);
         root.left = new Node(10);
@@ -60,24 +72,4 @@ public class TreeHeight {
         return height;
     }
 
-}
-
-/**
- *             15
- *         |       |
- *        10      20
- *       |  |    |  |
- *       8  12  16  25
- *
- */
-
-
-class Node {
-    int key;
-    Node left = null;
-    Node right = null;
-
-    Node(int key){
-        this.key = key;
-    }
 }
