@@ -16,6 +16,7 @@
         <module>threading</module>
         <module>java8</module>
         <module>trees</module>
+        <module>java8</module>
     </modules>
 
 
