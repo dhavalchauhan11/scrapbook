@@ -6,7 +6,7 @@ public class Palindrom {
     public static void main(String[] args) {
         Palindrom p = new Palindrom();
         String test = "abba";
-//        System.out.printf("isPali = " + p.isPalindrom(test.toCharArray()));
+//        System.out.printf("isPali = " + p.isPalindrome(test.toCharArray()));
         System.out.printf("isPali = " + p.isPali(test));
 
     }

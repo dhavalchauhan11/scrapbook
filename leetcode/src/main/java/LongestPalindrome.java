@@ -2,10 +2,10 @@
  * Author: dchauhan
  * Date: 2/17/16.
  */
-public class LongestPalindrom {
+public class LongestPalindrome {
 
     public static void main(String[] args) {
-        LongestPalindrom lp = new LongestPalindrom();
+        LongestPalindrome lp = new LongestPalindrome();
         String s = "abaccddccefe";
 //        String s = "HYTBCABADEFGHABCDEDCBAGHTFYW1234567887654321ZWETYGDE";
         System.out.println(lp.longestPalindromeSimple(s));
@@ -23,7 +23,7 @@ public class LongestPalindrom {
         for(int i=0;i<s.length()-1;i++){
             for(int j=i+1;j<s.length();j++){
                 String temp = s.substring(i,j);
-                if(isPalindrom(temp)){
+                if(isPalindrome(temp)){
                     if(temp.length() > longestPeli.length()){
                         longestPeli = temp;
                     }
@@ -33,7 +33,7 @@ public class LongestPalindrom {
         return longestPeli;
     }
 
-    public boolean isPalindrom(String input){
+    public boolean isPalindrome(String input){
         int beg=0;
         int end=input.length()-1;
         while(end > beg){
